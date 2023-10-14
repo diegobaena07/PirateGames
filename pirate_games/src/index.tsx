@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { PaginaInicial } from './pages/PaginaInicial';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <PaginaInicial />
   </React.StrictMode>,
   document.getElementById('root')
 );
