@@ -27,7 +27,9 @@ const HeaderPirateGames: FC = () => {
         </div>
         {/* <div className="search">
           <input type="search" placeholder="¿Que Juego deseas buscar?" />
-        </div> */}
+        </div>
+        Prueba de Rama DEV 
+        */}
       </div>
     </header>
   );
