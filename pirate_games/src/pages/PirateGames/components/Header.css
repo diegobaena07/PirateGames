@@ -1,0 +1,121 @@
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #222f7c;
+}
+
+.back {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo img {
+    width: 250px;
+}
+
+.search input {
+    width: 300px;
+    padding: 7px;
+}
+
+/*MENU*/
+nav {
+    height: 100%;
+}
+
+nav>ul {
+    height: 100%;
+    display: flex;
+    margin-bottom: auto;
+    align-items: end;
+    justify-content: space-between;
+}
+
+nav ul li {
+    height: 100%;
+    list-style: none;
+    position: relative;
+}
+
+nav>ul>li>a {
+    width: 100%;
+    height: 100%;
+    color: azure;
+    align-items: center;
+    padding: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    transition: all 300ms ease;
+}
+
+nav>ul>li>a:hover {
+    background: #f3f3f3;
+    color: #222f7c;
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.5);
+}
+
+/*SUBMENU*/
+
+nav ul li ul {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    background: #f3f3f3;
+    position: absolute;
+    top: 43px;
+    visibility: hidden;
+    opacity: 0;
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.5);
+    z-index: 10;
+    transition: all 300ms ease;
+}
+
+nav ul li:hover ul {
+    visibility: visible;
+    opacity: 1;
+    top: 55px;
+}
+
+nav ul li ul:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid white;
+    position: absolute;
+    top: -12px;
+    left: 20px;
+}
+
+nav ul li ul li {
+    margin-bottom: 4px;
+}
+
+nav ul li ul li a {
+    display: block;
+    color: #222f7c;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: -25px;
+    margin-top: 5px;
+    font-size: 14px;
+    transition: all 300ms ease;
+}
+
+nav ul li ul li a:hover {
+    background: #222f7c;
+    color: #f3f3f3;
+    transform: scale(1.1);
+    padding-left: 30px;
+    margin-left: -32px;
+    font-size: 14px;
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.5);
+}

@@ -1,12 +1,12 @@
-import React, { FC } from "react";
+import { FC } from "react";
 
 
 const FooterPirateGames: FC = () => {
 
-    return(
+    return (
         <>
         </>
     )
 }
 
-export {FooterPirateGames}
+export { FooterPirateGames }
