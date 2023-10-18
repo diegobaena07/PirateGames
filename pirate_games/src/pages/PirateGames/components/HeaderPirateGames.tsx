@@ -5,11 +5,9 @@ const HeaderPirateGames: FC = () => {
   return (
     <header>
       <div className="back">
-        <div className="logo">
-          <label htmlFor="menu">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/PlayStation_logo_and_wordmark.svg/2560px-PlayStation_logo_and_wordmark.svg.png" />
-          </label>
-        </div>
+        <label htmlFor="menu">
+          <img src="./HeaderLetrasPirateGames.svg" />
+        </label>
         <div className="menu">
           <nav>
             <ul>
