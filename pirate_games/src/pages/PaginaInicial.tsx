@@ -2,6 +2,7 @@ import { FC } from "react";
 import { PirateGamesContextProvider } from "./PirateGamesContext";
 import { HeaderPirateGames } from "./PirateGames/components/HeaderPirateGames";
 import { FooterPirateGames } from "./PirateGames/components/FooterPirateGames";
+import "./PantallaInicial.css";
 
 
 const PaginaInicial: FC = () => {
