@@ -1,0 +1,9 @@
+body {
+    background: #1f201e;
+    width: 100%;
+}
+
+.back-cartas {
+    max-width: 1200px;
+    margin: auto;
+}

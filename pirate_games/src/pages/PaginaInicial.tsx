@@ -2,8 +2,8 @@ import { FC } from "react";
 import { PirateGamesContextProvider } from "./PirateGamesContext";
 import { HeaderPirateGames } from "./PirateGames/components/Header/HeaderPirateGames";
 import { FooterPirateGames } from "./PirateGames/components/Footer/FooterPirateGames";
+import { InicioPirateGames } from "./PirateGames/pages/InicioPirateGames/InicioPirateGames";
 import "./PantallaInicial.css";
-
 
 const PaginaInicial: FC = () => {
 
@@ -12,7 +12,7 @@ const PaginaInicial: FC = () => {
             <div>
                 <HeaderPirateGames />
                 <div>
-                    <h1>Contenido</h1>
+                    <InicioPirateGames />
                 </div>
                 <FooterPirateGames />
             </div>
