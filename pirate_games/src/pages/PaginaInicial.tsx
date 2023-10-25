@@ -9,12 +9,11 @@ const PaginaInicial: FC = () => {
 
     return (
         <PirateGamesContextProvider>
-            <div>
+            <div className="fondo">
                 <HeaderPirateGames />
-                <div>
+                <div className="body-inicial">
                     <InicioPirateGames />
                 </div>
-                <FooterPirateGames />
             </div>
         </PirateGamesContextProvider>
     )
