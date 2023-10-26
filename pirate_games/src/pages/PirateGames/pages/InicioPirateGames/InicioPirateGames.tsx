@@ -26,32 +26,32 @@ const InicioPirateGames: FC = () => {
                         </div>
                         <div className="carta">
                             <CaratulaJuego
-                                imagen="https://img.asmedia.epimg.net/resizer/lqsy7mJHPWIbj45aTSL7gwZY4U8=/360x0/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/KJSGVNUE3ZJSFLZ5MUJVKHHILY.jpg"
-                                nombre="Grand Theft Auto: San Andreas"
+                                imagen="./Need for Speed Most Wanted.jpg"
+                                nombre="Need for Speed Most Wanted"
                                 region="Ntfs-Pal" />
                         </div>
                         <div className="carta">
                             <CaratulaJuego
-                                imagen="https://img.asmedia.epimg.net/resizer/lqsy7mJHPWIbj45aTSL7gwZY4U8=/360x0/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/KJSGVNUE3ZJSFLZ5MUJVKHHILY.jpg"
-                                nombre="Grand Theft Auto: San Andreas"
+                                imagen="./Bully Canis Canem Edit.jpg"
+                                nombre="Bully Canis Canem Edit"
                                 region="Ntfs-Pal" />
                         </div>
                         <div className="carta">
                             <CaratulaJuego
-                                imagen="https://img.asmedia.epimg.net/resizer/lqsy7mJHPWIbj45aTSL7gwZY4U8=/360x0/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/KJSGVNUE3ZJSFLZ5MUJVKHHILY.jpg"
-                                nombre="Grand Theft Auto: San Andreas"
+                                imagen="./DBZ Budokai Tenkaichi 3.jpg"
+                                nombre="DBZ Budokai Tenkaichi 3"
                                 region="Ntfs-Pal" />
                         </div>
                         <div className="carta">
                             <CaratulaJuego
-                                imagen="https://img.asmedia.epimg.net/resizer/lqsy7mJHPWIbj45aTSL7gwZY4U8=/360x0/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/KJSGVNUE3ZJSFLZ5MUJVKHHILY.jpg"
-                                nombre="Grand Theft Auto: San Andreas"
+                                imagen="./PES 2020 3.0 FINAL.jpg"
+                                nombre="PES 2020 3.0 FINAL"
                                 region="Ntfs-Pal" />
                         </div>
                         <div className="carta">
                             <CaratulaJuego
-                                imagen="https://img.asmedia.epimg.net/resizer/lqsy7mJHPWIbj45aTSL7gwZY4U8=/360x0/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/KJSGVNUE3ZJSFLZ5MUJVKHHILY.jpg"
-                                nombre="Grand Theft Auto: San Andreas"
+                                imagen="./Naruto Ultimate Ninja 3.jpg"
+                                nombre="Naruto Ultimate Ninja 3"
                                 region="Ntfs-Pal" />
                         </div>
                         <div className="carta">
