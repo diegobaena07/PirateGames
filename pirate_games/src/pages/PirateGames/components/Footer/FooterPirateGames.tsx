@@ -6,7 +6,7 @@ const FooterPirateGames: FC = () => {
     return (
         <footer>
             <div className="backFooter">
-                <img className="logoFooter" src="./LOGO.png" alt="" />
+                <img className="logoFooter" src="./img/LOGO.png" alt="" />
                 <div className="redes_sociales">
                     <a href="" className="iconos_redes"></a>
                     <a href="" className="iconos_redes"></a>

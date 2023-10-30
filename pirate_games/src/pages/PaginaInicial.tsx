@@ -14,6 +14,7 @@ const PaginaInicial: FC = () => {
                 <div className="body-inicial">
                     <InicioPirateGames />
                 </div>
+                <FooterPirateGames />
             </div>
         </PirateGamesContextProvider>
     )

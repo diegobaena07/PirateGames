@@ -1,5 +1,5 @@
+import { Carousel } from "../../components/Carousel/Carousel";
 import { CaratulaJuego } from "../../components/CartaDeJuego/CaratulaJuego";
-import { FooterPirateGames } from "../../components/Footer/FooterPirateGames";
 import "./InicioPirateGames.css";
 import { FC } from "react"
 
@@ -9,9 +9,7 @@ const InicioPirateGames: FC = () => {
         <>
             <div className="body-cartas">
                 <div className="back-search">
-                    <div>
-
-                    </div>
+                    <Carousel/>
                 </div>
                 <div className="back-cartas">
                     <div className="titulo-cartas">
@@ -26,31 +24,31 @@ const InicioPirateGames: FC = () => {
                         </div>
                         <div className="carta">
                             <CaratulaJuego
-                                imagen="./Need for Speed Most Wanted.jpg"
+                                imagen="./img/Need for Speed Most Wanted.jpg"
                                 nombre="Need for Speed Most Wanted"
                                 region="Ntfs-Pal" />
                         </div>
                         <div className="carta">
                             <CaratulaJuego
-                                imagen="./Bully Canis Canem Edit.jpg"
+                                imagen="./img/Bully Canis Canem Edit.jpg"
                                 nombre="Bully Canis Canem Edit"
                                 region="Ntfs-Pal" />
                         </div>
                         <div className="carta">
                             <CaratulaJuego
-                                imagen="./DBZ Budokai Tenkaichi 3.jpg"
+                                imagen="./img/DBZ Budokai Tenkaichi 3.jpg"
                                 nombre="DBZ Budokai Tenkaichi 3"
                                 region="Ntfs-Pal" />
                         </div>
                         <div className="carta">
                             <CaratulaJuego
-                                imagen="./PES 2020 3.0 FINAL.jpg"
+                                imagen="./img/PES 2020 3.0 FINAL.jpg"
                                 nombre="PES 2020 3.0 FINAL"
                                 region="Ntfs-Pal" />
                         </div>
                         <div className="carta">
                             <CaratulaJuego
-                                imagen="./Naruto Ultimate Ninja 3.jpg"
+                                imagen="./img/Naruto Ultimate Ninja 3.jpg"
                                 nombre="Naruto Ultimate Ninja 3"
                                 region="Ntfs-Pal" />
                         </div>
@@ -81,7 +79,6 @@ const InicioPirateGames: FC = () => {
                     </div>
                 </div>
             </div>
-            <FooterPirateGames />
         </>
     )
 }
