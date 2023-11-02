@@ -47,10 +47,17 @@ const InicioPirateGames: FC = () => {
     return (
         <>
             <div className="body-cartas">
-                <div className="back-search">
+                <div className="back-carrusel">
                     <Carousel />
                 </div>
                 <div className="back-cartas">
+                    <br />
+                    <form className="search__container" onSubmit={(e) => e.preventDefault()} role="Buscar">
+                        <input className="search__input" type="text" placeholder="Buscar..." required/>
+                        <button type="submit" className="searchButton">
+                            <i className="material-icons">search</i>
+                        </button>
+                    </form>
                     <div className="titulo-cartas">
                         <h3 className="titulo1">Juegos Agregados Recientemente</h3>
                     </div>

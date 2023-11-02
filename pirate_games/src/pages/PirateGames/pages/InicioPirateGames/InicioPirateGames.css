@@ -4,16 +4,82 @@
     height: 100%;
 }
 
-.back-search{
+.back-carrusel {
     max-width: 1200px;
-    height: 37em;
     margin: auto;
-    margin-top: 1em;
-    border: 2px solid #62b624;
-    border-radius: 16px;
     display: flex;
-    align-items: end;
     justify-content: center;
+}
+
+.search__container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    border-radius: 13px;
+    border: 1px solid #62b624;
+    transition: all 250ms ease-in-out;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+
+    &::placeholder {
+        color: color(#FDFF00);
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+    }
+
+    &:hover,
+    &:focus {
+        outline: 0;
+        border: 1px solid transparent;
+        color: #FDFF00;
+        border-bottom: 1px solid #FDFF00;
+        border-radius: 0;
+        background-position: 100% center;
+    }
+}
+
+.search__input {
+    width: 100%;
+    padding: 12px 24px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #62b624;
+    background-color: transparent;
+    border: none;
+    transition: all 250ms ease-in-out;
+
+    &::placeholder {
+        color: color(#FDFF00);
+    }
+
+    &:hover,
+    &:focus {
+        outline: 0;
+        border: none;
+        color: #FDFF00;
+    }
+
+}
+
+.searchButton {
+    color: #62b624;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    border: none;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+
+    &:hover,
+    &:focus {
+        border: none;
+        color: #FDFF00;
+    }
 }
 
 .back-cartas {
@@ -23,7 +89,7 @@
     background: #0b01464d;
 }
 
-.titulo-cartas{
+.titulo-cartas {
     max-width: 1200px;
     margin: auto;
     margin-top: 1em;
@@ -31,13 +97,13 @@
     border-left: 4px solid #62b624;
 }
 
-h3{
+h3 {
     padding: 10px;
 }
 
 .total-cartas {
     height: 100%;
-    display: flex; 
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
