@@ -1,4 +1,4 @@
-import { Juego } from "../../../../interfaces/General";
+import { Juego } from "../../Interface/General";
 import { Carousel } from "../../components/Carousel/Carousel";
 import { CaratulaJuego } from "../../components/CartaDeJuego/CaratulaJuego";
 import "./InicioPirateGames.css";
