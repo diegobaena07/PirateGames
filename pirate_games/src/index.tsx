@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import { PaginaInicial } from './pages/PaginaInicial';
+import { PirateGamesWrapper } from './pages/PirateGames/PirateGamesWrapper';
 
 ReactDOM.render(
   <React.StrictMode>
-    <PaginaInicial />
+    <PirateGamesWrapper />
   </React.StrictMode>,
   document.getElementById('root')
 );

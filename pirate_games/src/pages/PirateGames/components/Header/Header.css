@@ -96,6 +96,21 @@ header {
         margin-bottom: 15px;
         padding-left: 0;
     }
+
+    .menu .opciones ul li a:hover {
+        background: #62b624;
+        color: #ffffff;
+        box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.5);
+    }
+
+    .menu .opciones ul li a:active {
+        padding-right: 7em;
+        padding-left: 7em;
+        background: #62b624;
+        color: #ffffff;
+        box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.5);
+        transform: scale(1);
+    }
 }
 
 /*RESPONSIVE PARA TELEFONO*/
@@ -173,9 +188,19 @@ header {
         transform: scale(1);
     }
 
+    .menu .opciones ul li a:active {
+        padding-right: 7em;
+        padding-left: 7em;
+        background: #62b624;
+        color: #ffffff;
+        box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.5);
+        transform: scale(1);
+    }
+
     #menu:checked~.opciones {
         width: 100%;
         height: 17%;
+        z-index: 2;
         visibility: visible;
         opacity: 1;
         box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.5);

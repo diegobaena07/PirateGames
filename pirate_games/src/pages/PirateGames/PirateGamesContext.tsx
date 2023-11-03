@@ -1,14 +1,14 @@
 import { createContext } from "react";
 
 type PirateGamesContextType = {
-   
+
 }
 
 export const PirateGamesContext = createContext<PirateGamesContextType>(
     {} as PirateGamesContextType
 );
 
-export const PirateGamesContextProvider = ({ children }: any) => {
+export const PirateGamesProvider = ({ children }: any) => {
 
     return (
         <PirateGamesContext.Provider value={{

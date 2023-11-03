@@ -7,3 +7,19 @@
 .swiper-pagination-bullet {
     background: var(--swiper-pagination-bullet-inactive-color, #fdff00) !important;
 }
+
+/*RESPONSIVE PARA TABLET*/
+
+@media screen and (max-width: 935px) {
+    .imagen-noticia {
+        height: 400px;
+    }
+}
+
+/*RESPONSIVE PARA TELEFONO*/
+
+@media screen and (max-width: 620px) {
+    .imagen-noticia {
+        height: 300px;
+    }
+}
