@@ -4,8 +4,7 @@ import "swiper/css/navigation";
 import "./Carousel.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
-import { Imagen } from "../../../../interfaces/General";
-import { match } from "assert";
+import { Imagen } from "../../Interface/General";
 
 type Noticias = {
     noticias: Array<Imagen>;

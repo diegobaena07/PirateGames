@@ -1,8 +1,8 @@
+import { FC } from "react"
 import { Carousel } from "../../components/Carousel/Carousel";
 import { CaratulaJuego } from "../../components/CartaDeJuego/CaratulaJuego";
 import { juegos, noticias } from "../TS/GeneralApi";
 import "./InicioPirateGames.css";
-import { FC } from "react"
 
 const InicioPirateGames: FC = () => {
     return (
