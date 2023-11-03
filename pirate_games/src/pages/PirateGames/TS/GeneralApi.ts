@@ -1,4 +1,4 @@
-import { Imagen, Juego } from "../../Interface/General";
+import { Imagen, Juego } from "../Interface/General";
 
 
 export const juegos: Array<Juego> = [

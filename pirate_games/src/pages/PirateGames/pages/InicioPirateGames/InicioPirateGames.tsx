@@ -1,7 +1,7 @@
 import { FC } from "react"
 import { Carousel } from "../../components/Carousel/Carousel";
 import { CaratulaJuego } from "../../components/CartaDeJuego/CaratulaJuego";
-import { juegos, noticias } from "../TS/GeneralApi";
+import { juegos, noticias } from "../../TS/GeneralApi";
 import "./InicioPirateGames.css";
 
 const InicioPirateGames: FC = () => {
@@ -14,7 +14,7 @@ const InicioPirateGames: FC = () => {
                 <div className="back-cartas">
                     <br />
                     <form className="search__container" onSubmit={(e) => e.preventDefault()} role="Buscar">
-                        <input className="search__input" type="text" placeholder="Buscar..." required/>
+                        <input className="search__input" type="text" placeholder="Buscar..." required />
                         <button type="submit" className="searchButton">
                             <i className="material-icons">search</i>
                         </button>
