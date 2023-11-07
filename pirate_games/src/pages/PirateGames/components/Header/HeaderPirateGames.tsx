@@ -1,12 +1,16 @@
-import { FC } from "react";
 import "./Header.css";
+import { FC, useContext } from "react";
+import { PirateGamesContext } from "../../PirateGamesContext";
 
 const HeaderPirateGames: FC = () => {
+
+  const { setShowModal } = useContext(PirateGamesContext)
+
   return (
     <header>
       <div className="back">
         <div className="menu">
-          <img src="./HeaderLetrasPirateGames.svg" className="logo"/>
+          <img src="./HeaderLetrasPirateGames.svg" className="logo" />
           <input type="checkbox" name="menu" id="menu" />
           <label htmlFor="menu">
             <img src="./menu_ICON.svg" className="icon-opciones" alt="" />
@@ -21,7 +25,7 @@ const HeaderPirateGames: FC = () => {
                 </ul> */}
               </li>
               <li><a href="#">Como Descargar</a></li>
-              <li><a href="#">Contactanos</a></li>
+              <li><a href="#" onClick={() => setShowModal(true)}>Contactanos</a></li>
             </ul>
           </nav>
         </div>
