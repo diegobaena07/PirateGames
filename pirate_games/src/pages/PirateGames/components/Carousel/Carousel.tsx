@@ -19,8 +19,8 @@ const Carousel = ({noticias}: Noticias) => {
                 loop={true}
                 allowTouchMove={true}
                 autoplay={{
-                    delay: 2000,
-                    disableOnInteraction: true,
+                    delay: 5000,
+                    disableOnInteraction: false,
                 }}
                 pagination={{
                     clickable: true,
