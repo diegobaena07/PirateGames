@@ -1,0 +1,49 @@
+.cabeceraTotal {
+    background: #ffff;
+    color: #0b0146 !important;
+    border: 1px;
+    border-color: #62b624 !important;
+}
+
+.cabecera {
+    border-style: solid !important;
+    border-bottom: none !important;
+}
+
+.contenido {
+    border-style: solid !important;
+    border-bottom: none !important;
+    border-top: none !important;
+}
+
+.imput-form {
+    border: 1px solid #62b624 !important;
+    transition: all 250ms ease-in-out !important;
+    backface-visibility: hidden !important;
+    background: transparent;
+    color: #62b624;
+
+    &::placeholder {
+        color: color(#0b0146) !important;
+        color: #0b0146a1;
+    }
+
+    &:hover,
+    &:focus {
+        outline: 0 !important;
+        border: 1px solid transparent !important;
+        color: #0b0146 !important;
+        border-bottom: 1px solid #0b0146 !important;
+        border-radius: 0 !important;
+        background-position: 100% center !important;
+    }
+}
+
+.abajo {
+    border-style: solid !important;
+    border-top: none !important;
+}
+
+.btn-close {
+    background-color: #ffff !important;
+}
