@@ -71,43 +71,48 @@ const Contactanos: FC = () => {
                     <ModalTitle>Contactanos</ModalTitle>
                 </ModalHeader>
                 <ModalBody className="contenido cabeceraTotal">
-                    <Form.Group className="m-2">
-                        <Form.Label>¿Quién nos contacta?</Form.Label>
-                        <Form.Control
-                            className="imput-form"
-                            type="text"
-                            name="nombre"
-                            value={form.nombre}
-                            placeholder="Nombre completo"
-                            autoFocus
-                            onChange={(e) => handleFormChange(e)}
-                        />
-                    </Form.Group>
-                    <Form.Group className="m-2">
-                        <Form.Label>Email</Form.Label>
-                        <Form.Control
-                            className="imput-form"
-                            type="email"
-                            name="email"
-                            value={form.email}
-                            placeholder="email@example.com"
-                            onChange={(e) => handleFormChange(e)}
-                        />
-                    </Form.Group>
-                    <Form.Group className="m-2">
-                        <Form.Label>Dejanos saber tu consulta...</Form.Label>
-                        <Form.Control
-                            className="imput-form"
-                            as="textarea"
-                            rows={4}
-                            name="mensaje"
-                            value={form.mensaje}
-                            onChange={(e) => handleFormChange(e)}
-                        />
-                    </Form.Group>
+                    <div className="imagen_fondo">
+                        <img src="./LOGO.png" className="imagen_Logo_Modal" />
+                    </div>
+                    <div>
+                        <Form.Group className="m-2">
+                            <Form.Label>¿Quién nos contacta?</Form.Label>
+                            <Form.Control
+                                className="imput-form"
+                                type="text"
+                                name="nombre"
+                                value={form.nombre}
+                                placeholder="Nombre completo"
+                                autoFocus
+                                onChange={(e) => handleFormChange(e)}
+                            />
+                        </Form.Group>
+                        <Form.Group className="m-2">
+                            <Form.Label>Email</Form.Label>
+                            <Form.Control
+                                className="imput-form"
+                                type="email"
+                                name="email"
+                                value={form.email}
+                                placeholder="email@example.com"
+                                onChange={(e) => handleFormChange(e)}
+                            />
+                        </Form.Group>
+                        <Form.Group className="m-2">
+                            <Form.Label>Dejanos saber tu consulta...</Form.Label>
+                            <Form.Control
+                                className="imput-form"
+                                as="textarea"
+                                rows={2}
+                                name="mensaje"
+                                value={form.mensaje}
+                                onChange={(e) => handleFormChange(e)}
+                            />
+                        </Form.Group>
+                    </div>
                 </ModalBody>
                 <ModalFooter className="abajo cabeceraTotal">
-                    <Button type="submit">
+                    <Button type="submit" className="btn btn-pirategames">
                         Enviar
                     </Button>
                 </ModalFooter>

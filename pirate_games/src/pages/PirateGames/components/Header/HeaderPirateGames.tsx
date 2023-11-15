@@ -25,7 +25,7 @@ const HeaderPirateGames: FC = () => {
                 </ul> */}
               </li>
               <li><a href="#">Como Descargar</a></li>
-              <li><a href="#" onClick={() => setShowModal(true)}>Contactanos</a></li>
+              <li><button className="btn_pirate" onClick={() => setShowModal(true)}><a>CONTACTANOS</a></button></li>
             </ul>
           </nav>
         </div>

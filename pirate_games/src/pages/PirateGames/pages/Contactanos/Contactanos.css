@@ -1,19 +1,33 @@
 .cabeceraTotal {
-    background: #ffff;
-    color: #0b0146 !important;
+    background: #0b0146;
+    color: #ffff !important;
     border: 1px;
     border-color: #62b624 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .cabecera {
     border-style: solid !important;
     border-bottom: none !important;
+    display: flex;
+    justify-content: center;
 }
 
 .contenido {
     border-style: solid !important;
     border-bottom: none !important;
     border-top: none !important;
+}
+
+.imagen_fondo {
+    margin-right: 6em;
+}
+
+.imagen_Logo_Modal {
+    width: 200px;
+    height: 200px;
 }
 
 .imput-form {
@@ -24,24 +38,33 @@
     color: #62b624;
 
     &::placeholder {
-        color: color(#0b0146) !important;
-        color: #0b0146a1;
+        color: color(#ffff0079) !important;
+        color: #ffff008a;
+        font-size: 14px;
     }
 
     &:hover,
     &:focus {
         outline: 0 !important;
         border: 1px solid transparent !important;
-        color: #0b0146 !important;
-        border-bottom: 1px solid #0b0146 !important;
+        color: #FDFF00 !important;
+        background: #0b0146;
+        border-bottom: 1px solid #FDFF00 !important;
         border-radius: 0 !important;
         background-position: 100% center !important;
+    }
+
+    &:active {
+        border-color: #FDFF00;
     }
 }
 
 .abajo {
     border-style: solid !important;
     border-top: none !important;
+    display: flex;
+    justify-content: center;
+    padding-left: 19em;
 }
 
 .btn-close {
