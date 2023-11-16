@@ -41,6 +41,7 @@ header {
     display: flex;
     margin-bottom: auto;
     justify-content: space-between;
+    align-items: end;
 }
 
 .menu .opciones ul li {
@@ -51,20 +52,28 @@ header {
 
 .menu .opciones ul li a {
     color: #ffff;
-    padding-top: 10px;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-bottom: 10px;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
     transition: all 300ms ease;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 .menu .opciones ul li a:hover {
     background: #62b624;
     color: #ffffff;
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.5);
+}
+
+.btn_pirate {
+    background: #0b0146;
+    border: solid 2px #0b0146;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffff;
 }
 
 #menu {
@@ -95,6 +104,21 @@ header {
         width: 380px;
         margin-bottom: 15px;
         padding-left: 0;
+    }
+
+    .menu .opciones ul li a:hover {
+        background: #62b624;
+        color: #ffffff;
+        box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.5);
+    }
+
+    .menu .opciones ul li a:active {
+        padding-right: 7em;
+        padding-left: 7em;
+        background: #62b624;
+        color: #ffffff;
+        box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.5);
+        transform: scale(1);
     }
 }
 
@@ -173,9 +197,19 @@ header {
         transform: scale(1);
     }
 
+    .menu .opciones ul li a:active {
+        padding-right: 7em;
+        padding-left: 7em;
+        background: #62b624;
+        color: #ffffff;
+        box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.5);
+        transform: scale(1);
+    }
+
     #menu:checked~.opciones {
         width: 100%;
         height: 17%;
+        z-index: 2;
         visibility: visible;
         opacity: 1;
         box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.5);

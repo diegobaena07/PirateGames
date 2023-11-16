@@ -6,3 +6,12 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+
+.fondo {
+    background: #1f201e;
+    position: relative;
+}
+
+.body-inicial {
+    scroll-behavior: auto;
+}
