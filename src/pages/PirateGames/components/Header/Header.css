@@ -1,0 +1,218 @@
+header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #0b0146;
+    border: 5px;
+    border-color: #fdff00;
+    border-bottom-style: solid;
+}
+
+.back {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/*AJUSTES GENERAL DEL MENU HEADER*/
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    align-items: end;
+}
+
+/*AJUSTES DE LOGO*/
+
+.logo {
+    width: 300px;
+    padding-left: 2em;
+}
+
+/*AJUSTES DE MENU OPCIONES*/
+
+.menu .opciones {
+    height: 100%;
+}
+
+.menu .opciones ul {
+    height: 100%;
+    display: flex;
+    margin-bottom: auto;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.menu .opciones ul li {
+    height: 100%;
+    list-style: none;
+    position: relative;
+}
+
+.menu .opciones ul li a {
+    color: #ffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: all 300ms ease;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.menu .opciones ul li a:hover {
+    background: #62b624;
+    color: #ffffff;
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.5);
+}
+
+.btn_pirate {
+    background: #0b0146;
+    border: solid 2px #0b0146;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffff;
+}
+
+#menu {
+    display: none;
+}
+
+.icon-opciones {
+    cursor: pointer;
+    display: none;
+}
+
+/*RESPONSIVE PARA TABLET*/
+
+@media screen and (max-width: 935px) {
+    .menu {
+        margin: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        width: 380px;
+        margin-bottom: 15px;
+        padding-left: 0;
+    }
+
+    .menu .opciones ul li a:hover {
+        background: #62b624;
+        color: #ffffff;
+        box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.5);
+    }
+
+    .menu .opciones ul li a:active {
+        padding-right: 7em;
+        padding-left: 7em;
+        background: #62b624;
+        color: #ffffff;
+        box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.5);
+        transform: scale(1);
+    }
+}
+
+/*RESPONSIVE PARA TELEFONO*/
+
+@media screen and (max-width: 620px) {
+
+    .menu {
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        margin: auto;
+    }
+
+    .logo {
+        width: 270px;
+        margin-left: 10px;
+        margin-bottom: 0;
+    }
+
+    .icon-opciones {
+        display: initial;
+        align-self: flex-end;
+        margin-right: 1em;
+    }
+
+    .menu .opciones {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        background: #0b0146d8;
+        width: 100%;
+        height: 0%;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 300ms ease;
+    }
+
+    .menu .opciones ul {
+        flex-direction: column;
+        left: 0;
+        width: 100%;
+        height: 85%;
+        align-items: center;
+        z-index: 100;
+        transition: linear;
+    }
+
+    .menu .opciones ul li {
+        height: 0%;
+        list-style: none;
+        position: relative;
+        padding: 10px;
+    }
+
+    .menu .opciones ul li a {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0px;
+        padding-left: 0em;
+        padding-right: 0em;
+        padding-bottom: 0px;
+        margin-left: -1em;
+        font-size: 13px;
+    }
+
+    .menu .opciones ul li a:hover {
+        padding-right: 7em;
+        padding-left: 7em;
+        background: #62b624;
+        color: #ffffff;
+        box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.5);
+        transform: scale(1);
+    }
+
+    .menu .opciones ul li a:active {
+        padding-right: 7em;
+        padding-left: 7em;
+        background: #62b624;
+        color: #ffffff;
+        box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.5);
+        transform: scale(1);
+    }
+
+    #menu:checked~.opciones {
+        width: 100%;
+        height: 17%;
+        z-index: 2;
+        visibility: visible;
+        opacity: 1;
+        box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.5);
+        transform: scale(1);
+    }
+}
